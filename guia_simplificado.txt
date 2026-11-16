@@ -1,0 +1,24 @@
+====================================================================
+           PASSO A PASSO RÁPIDO: RODAR PROJETO NO PC DA ESCOLA
+====================================================================
+
+(Com a pasta já aberta no VS Code e o Terminal aberto)
+
+1. SINCRONIZAR DEPENDÊNCIAS NO NOVO PC:
+   Digite no terminal e aperte Enter:
+
+       npm install
+
+
+2. RODAR O PROJETO NA WEB:
+   Digite no terminal e aperte Enter:
+
+       npx expo start --web
+
+
+3. SE DAR TELA BRANCA OU ERRO DE CACHE:
+   Cancele o terminal (Ctrl + C) e rode com limpeza de cache:
+
+       npx expo start --web --clear
+
+====================================================================
